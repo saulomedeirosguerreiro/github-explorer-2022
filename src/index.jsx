@@ -1,7 +1,4 @@
-import React from 'React'
+import { render } from 'react-dom'
+import App from './App'
 
-function App() {
-    return <h1>Helllo World</h1>
-}
-
-export default App
+render(<App />, document.getElementById('root'))
