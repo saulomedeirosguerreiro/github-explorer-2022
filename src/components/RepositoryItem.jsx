@@ -5,7 +5,7 @@ export function RepositoryItem(props){
             <p>{props.repository.description}</p>
             
             <a 
-                href={props.repository.link}
+                href={props.repository.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
             >
